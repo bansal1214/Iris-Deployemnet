@@ -15,6 +15,4 @@ def load_pickle(pickle_path):
     import pickle
     with open(pickle_path,'rb') as file:
         p = pickle.load(file)
-
     return p
-
